@@ -9,7 +9,7 @@
 - You can hit the ball back and forth with the CPU.
 - The Mouse stays within the bounds of the window...most of the time.
 
-# Current BugsL
+# Current Bugs
 - Trying to fix a glitch in which when the ball gets going fast, it disintegrates (see multi-threading in next section).
 - Fixing the perfect, never missing AI.
 
