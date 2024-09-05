@@ -1,12 +1,12 @@
 # Pong-AHK
 - My attempt at remaking the classic Pong game in Autohotkey.
 
-  ![image](https://github.com/user-attachments/assets/dbb8eb7e-af79-4892-905a-92903eb342ab)
+![image](https://github.com/user-attachments/assets/d5b63f4e-2edb-4cdd-ac1d-a7eb2d8e7b16)
 
 
 # Requirements:
 - Right now, the game is in beta and requires Autohotkey v1.1 to use.
-- Once the game is completed, I will commit to it here, and release a .exe version as well.
+- Once the game is completed, I will commit to it here, and release an .exe version as well.
 
 # Current Features:
 - You can hit the ball back and forth with the CPU.
