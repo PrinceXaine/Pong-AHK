@@ -1,26 +1,27 @@
 # Pong-AHK
 - My attempt at remaking the classic Pong game in Autohotkey.
 
-![image](https://github.com/user-attachments/assets/d5b63f4e-2edb-4cdd-ac1d-a7eb2d8e7b16)
-
+![image](https://github.com/user-attachments/assets/2087fe3b-6474-4d47-b0fd-583766304454)
 
 # Requirements:
-- Right now, the game is in beta and requires Autohotkey v1.1 to use.
-- Once the game is completed, I will commit to it here, and release an .exe version as well.
+- Requires Autohotkey v1.1
+- Download Link: https://www.autohotkey.com/download/1.1/AutoHotkey112207_Install.exe
+
+# How to Play:
+- You and the opponent hit the ball back and forth until the player or AI misses the ball and scores a point. Rinse and repeat.
 
 # Current Features:
-- You can hit the ball back and forth with the CPU.
-- The Mouse stays within the bounds of the window...most of the time.
+- A complete Pong game with scoring created in Autohotkey v1.1
+- The AI was initially was following the ball perfectly, but I added some variance to the AI's accuracy.
+- Mouse is locked into the game when you start. You can press ESC at any time to exit.
+- Game gradually gets faster as it plays.
 
-# Current Bugs
-- Trying to fix a glitch in which when the ball gets going fast, it disintegrates (see multi-threading in next section).
-- Fixing the perfect, never missing AI.
-
-# Current Update List:
-- Scoring System
-- Imperfect AI. The AI never misses. Just figuring out the best way to go about fixing this.
-- Currently Adding Multi-threading, to increase the overall responsiveness and update speed of GUI.
-
-# Future
-- Adding difficulty modes
-- Two balls instead of one?
+# How it was Achieved:
+- The pong application was split up into 4 parts.
+  - Pong.ahk (master file)
+  - AI Logic.ahk (Computer Logic)
+  - Ball Logic.ahk (Ball Physics)
+  - User Logic.ahk (Player Rudder)
+    
+ - This kept the scripts separated and lightweight.
+ - This simualted "multi-threading" in AHK.
