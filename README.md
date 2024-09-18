@@ -6,13 +6,14 @@
 # Requirements:
 - Requires Autohotkey v1.1
 - Download Link: https://www.autohotkey.com/download/1.1/AutoHotkey112207_Install.exe
+- Download Pong.zip, extract the files and run Pong.AHK. That's it.
 
 # How to Play:
 - You and the opponent hit the ball back and forth until the player or AI misses the ball and scores a point. Rinse and repeat.
 
 # Current Features:
 - A complete Pong game with scoring created in Autohotkey v1.1
-- The AI was initially was following the ball perfectly, but I added some variance to the AI's accuracy.
+- The AI was initially following the ball perfectly, but I added some variance to the AI's accuracy.
 - Mouse is locked into the game when you start. You can press ESC at any time to exit.
 - Game gradually gets faster as it plays.
 
