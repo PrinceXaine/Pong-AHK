@@ -1,28 +1,46 @@
 # Pong-AHK
 - My attempt at remaking the classic Pong game in Autohotkey.
 
-![image](https://github.com/user-attachments/assets/2087fe3b-6474-4d47-b0fd-583766304454)
+![image](https://github.com/user-attachments/assets/7c5dfc62-c418-4a55-ad7b-a93abd825d19)
 
-# Requirements:
+# Requirements (Autohotkey)
 - Requires Autohotkey v1.1
 - Download Link: https://www.autohotkey.com/download/1.1/AutoHotkey112207_Install.exe
-- Download Pong.zip, extract the files and run Pong.AHK. That's it.
+- Download Pong.zip, extract the files and run Pong.AHK.
+
+# Requirements (Executable)
+- Windows OS.
+- Download Pong.zip, extract the files and run Pong.EXE.
+
+# PC Requirements
+- Intel® Core™ i3-530 Processor or better. (2 Core - 4 Threads)
+- This program was coded to take advantage of 4 threads. While it will run on a machine with less threads, I don't recommend it.
 
 # How to Play:
-- You and the opponent hit the ball back and forth until the player or AI misses the ball and scores a point. Rinse and repeat.
+- Your rudder is on the left. Use your mouse to move it up and down.
+- The first player to 11 or more points with a lead of 2 points or more is the victor.
 
 # Current Features:
 - A complete Pong game with scoring created in Autohotkey v1.1
-- The AI was initially following the ball perfectly, but I added some variance to the AI's accuracy.
-- Mouse is locked into the game when you start. You can press ESC at any time to exit.
+- Mouse is locked to the game.
+- AI with some degree of imperfection.
 - Game gradually gets faster as it plays.
+- FPS Counter
+- A working Pause Menu. Also unlocks your mouse.
 
-# How it was Achieved:
-- The pong application was split up into 4 parts.
-  - Pong.ahk (master file)
-  - AI Logic.ahk (Computer Logic)
-  - Ball Logic.ahk (Ball Physics)
-  - User Logic.ahk (Player Rudder)
-    
- - This kept the scripts separated and lightweight.
- - This simualted "multi-threading" in AHK.
+# Latest Updates:
+- Script Optimization
+- Pause Menu
+- FPS Counter
+- Win/Lose Game Logic
+
+# Technical Information
+- The pong application was split up into 5 parts.
+  - Pong (master file): The game window.
+  - AI Logic: Controls the AI Rudder.
+  - Ball Logic: Controls all of the ball's physics.
+  - User Logic: Player Rudder
+  - PauseGame: Allows the various scripts to pause in-sync.
+
+# Multi-Threading Benefits
+ - Greatly increased performance of the game. Gui logic is slow in AHK.
