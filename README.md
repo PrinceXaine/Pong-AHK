@@ -13,8 +13,9 @@
 - Download Pong.zip, extract the files and run Pong.EXE.
 
 # PC Requirements
-- Intel® Core™ i3-530 Processor or better. (2 Core - 4 Threads)
-- This program was coded to take advantage of 4 threads. While it will run on a machine with less threads, I don't recommend it.
+- Intel® Core™ i3-530 Processor or better. (2 Cores - 4 Threads)
+- This program was coded to take advantage of 4 threads.
+- While the game will run on less than 4 threads, it is not recommended.
 
 # How to Play:
 - Your rudder is on the left. Use your mouse to move it up and down.
@@ -43,4 +44,5 @@
   - PauseGame: Allows the various scripts to pause in-sync.
 
 # Multi-Threading Benefits
- - Greatly increased performance of the game. Gui logic is slow in AHK.
+ - Greatly increased performance of the game.
+ - Clean Scripts.
